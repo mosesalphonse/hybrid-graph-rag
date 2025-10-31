@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+langchain
+langchain-community
+langchain-groq
+langchain-neo4j
+langchain-text-splitters
+neo4j
+sentence-transformers
+PyPDF2
+python-docx
+python-multipart
+jinja2

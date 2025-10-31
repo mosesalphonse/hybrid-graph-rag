@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Graph RAG – Ask</title>
+    <style>
+        body { font-family: Arial; margin: 40px; background: #f9f9f9; }
+        .container { max-width: 700px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        textarea { width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; }
+        button { background: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+        .answer { margin-top: 20px; padding: 15px; background: #e9ecef; border-radius: 5px; white-space: pre-wrap; }
+        a { color: #007bff; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Ask a Question</h1>
+    <form action="/ask" method="post">
+        <textarea name="question" rows="3" placeholder="e.g., What frameworks are used with Java?" required></textarea>
+        <button type="submit">Ask</button>
+    </form>
+    {% if answer %}
+    <div class="answer"><strong>Answer:</strong><br>{{ answer }}</div>
+    {% endif %}
+    <p><a href="/">← Upload Another Document</a></p>
+</div>
+</body>
+</html>

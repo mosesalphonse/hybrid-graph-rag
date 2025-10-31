@@ -1,0 +1,20 @@
+replicaCount: 1
+image:
+  repository: your-registry/hybrid-rag
+  tag: latest
+env:
+  - name: GROQ_API_KEY
+    valueFrom:
+      secretKeyRef:
+        name: rag-secrets
+        key: groq-api-key
+  - name: NEO4J_URI
+    valueFrom:
+      secretKeyRef:
+        name: rag-secrets
+        key: neo4j-uri
+  - name: NEO4J_PASSWORD
+    valueFrom:
+      secretKeyRef:
+        name: rag-secrets
+        key: neo4j-password
