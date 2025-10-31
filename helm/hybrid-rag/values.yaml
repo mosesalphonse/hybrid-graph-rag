@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: your-registry/hybrid-rag
+  repository: mosesalphonsep/hybrid-rag
   tag: latest
 env:
   - name: GROQ_API_KEY
