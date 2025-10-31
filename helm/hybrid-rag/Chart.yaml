@@ -1,0 +1,9 @@
+apiVersion: v2
+name: hybrid-rag
+description: Hybrid Graph RAG – File Upload + Q&A with Knowledge Graph
+type: application
+version: 0.1.0
+appVersion: "1.0"
+maintainers:
+  - name: mosesalphonsep
+    email: moses.alphonse.p@gmail.com
