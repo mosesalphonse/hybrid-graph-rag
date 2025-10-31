@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7633a436-975e-4f75-8a4a-28242515d384" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/ask.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/hybrid-rag/Chart.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/hybrid-rag/templates/deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/hybrid-rag/templates/ingress.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/hybrid-rag/templates/service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/hybrid-rag/values.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="7633a436-975e-4f75-8a4a-28242515d384" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,13 +13,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="34pjoc0BmmfwczuIUqoB4JUBBY9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,6 +27,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "KUBERNETES_SUPPRESS_CONFIG_CLUSTER_SUGGESTION": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -59,6 +48,7 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
       </set>
     </attachedChunks>
   </component>
@@ -70,6 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761917584779</updated>
       <workItem from="1761917605893" duration="630000" />
+      <workItem from="1761926676422" duration="238000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,21 @@
 replicaCount: 1
+
 image:
-  repository: mosesalphonsep/hybrid-rag
+  repository: mosesalphonsep/hybrid-rag   # <-- change to your image
   tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: true
+  className: ""                     # GKE default is "gce"
+  host: rag.yourdomain.com          # <-- change to your real host
+  annotations: {}
+  tls: []                           # add TLS secret if you have one
+
 env:
   - name: GROQ_API_KEY
     valueFrom:
